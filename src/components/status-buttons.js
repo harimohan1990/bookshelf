@@ -35,7 +35,7 @@ function TooltipButton({label, highlight, onClick, icon, ...rest}) {
     <Tooltip label={isError ? error.message : label}>
       <CircleButton
         css={{
-          backgroundColor: 'white',
+          backgroundColor: 'green',
           ':hover,:focus': {
             color: isLoading
               ? colors.gray80
